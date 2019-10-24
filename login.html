@@ -8,23 +8,29 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-	<div class="central-box-login text-center">
-        <h1 class="text-center">Tela de Login</h1> 
-        <div class="form-row">
-            <div class="col-md-6 mb-3">
+	<div class="central-box-login">
+        <h1 class="text-center">Tela de Login</h1>
 
             <div class="form-row">
-                <div class="col-md-6 mb-3">
-                    <label>Login</label><br/>
-                    <input class="input-form" type="text" name="login" placeholder="Digite seu login" /><br/>
+                <div class="col-md-12 mb-3">
+                    <label>Login</label>
+                    <input class="form-control" type="text" name="login" placeholder="Digite seu login" />
+                </div>
             </div>	
 
-            <div>
-                <label>Senha</label><br/>
-                <input type="password" name="senha" placeholder="Digite sua senha" /><br/><br/>    
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                    <label>Senha</label>
+                    <input class="form-control" type="password" name="senha" placeholder="Digite sua senha" />
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="col-md-12 mb-3 text-center">
+                    <a href="logado.html"><button class="btn btn-primary">Logar</button></a> 
+                </div>
             </div>
 			
-			<a href="logado.html"><button>Logar</button></a>
 	</div>
 </body>
 </html>
